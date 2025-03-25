@@ -1,114 +1,153 @@
-ul {
-  text-align: left;
-
-  /*list-style-type: circle;
-  border-style: solid;
-  border-width: 1px;
+div {
+  width: 140px;
+  height: 80px;
+  margin: 5px;
+  padding: 5px;
+  border: 2px;
+  border-style: none;
   border-color: lime;
-  border-collapse: collapse;*/
+  border-radius: 20px;
+  float: left;
+  background: rgba(247, 18, 18, 0.1);
+  background-image: url(rose.jpg);
 }
 
-/*ul*/
+.lil{
+  width: 140px;
+  height: 80px;
+  margin: 5px;
+  padding: 5px;
+  border: 2px;
+  border-style: none;
+  border-color: lime;
+  border-radius: 20px;
+  float: left;
+
+  background-image: url(img/greenfield.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mil{
+  width: 100px;
+  height: 80px;
+  margin: 5px;
+  padding: 5px;
+  border: 2px;
+  border-style: none;
+  border-color: lime;
+  border-radius: 20px;
+  float: left;
+
+  background-image: url(img/LunaPic.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.jil{
+  width: 195px;
+  height: 80px;
+  margin: 5px;
+  padding: 5px;
+  border: 2px;
+  border-style: none;
+  border-color: lime;
+  border-radius: 20px;
+  float: left;
+
+  background-image: url(img/rosefield.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bil{
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-top: 1px;
+  margin-left: 1px; 
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-top: 1px;
+  padding-left: 1px;
+
+}
+
+ul {
+  text-align: left;
+}
+
 li {
   display: inline-block;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-
-  margin-bottom: 15px;
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  background: tomato;
-
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   font-style: normal;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 ul li {
   display: inline-block;
-}
-
-div {
-  
-  width: 1800px;
-  height: 50px;
-  margin:2px;
-
-  margin-bottom: 25px;
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  padding-right: 35px;
-  padding-left: 35px;
+  border-style: groove;
   border-width: 2px;
-  float: left;
-}
-
-
+  border-color: lime;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(Img/Flower\ Cherry.gif);
+ }
 
 .one {
-  
   background: rgba(248, 245, 245, 0.1);
-  background-image: url(Img/Flower\ Cherry.gif);
-  
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.a {
-  color: red;
-  background: rgb(158, 247, 217, 0.3);
-  text-align: left;
-
-  font-style: italic;
-  font-size: 30px;
-  font-weight: bold;
-
-  border-style: dotted;
-  border-width: 2px;
-  border-color: lime;
-  /*border-collapse: collapse;*/
+.x {
+  color: blue;
+  text-decoration: none;
 }
 
-.x {
+.y {
+  color: red;
+  text-decoration: none;
+}
+
+.z {
+  color: green;
+  text-decoration: none;
+}
+
+.i {
+  color: magenta;
+  text-decoration: none;
+}
+
+.j {
+  color: yellow;
+  text-decoration: none;
+}
+
+.k {
+  color: aqua;
+  text-decoration: none;
+}
+
+.y {
+  color: orange;
   text-decoration: none;
 }
 
 .a :hover {
-  background: hsla(108, 95%, 50%, 0.9);
   color: rgb(248, 6, 6);
   font-style: normal;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
-}
+ }
 
-/*
-ul li a {
-    
-color: whitesmoke;
-}
 
-*/
 
-/*
-table {
-  width: 50%;
-}
-*/
-
-/*
-td {
-  background: yellow;
-  color: blue;
-  text-align: center;
-  font-style: italic;
-  font-size: 20px;
-  font-weight: bold;
-  vertical-align: center;
-}
-*/
