@@ -1,0 +1,114 @@
+ul {
+  text-align: left;
+
+  /*list-style-type: circle;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lime;
+  border-collapse: collapse;*/
+}
+
+/*ul*/
+li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background: tomato;
+
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul li {
+  display: inline-block;
+}
+
+div {
+  
+  width: 1800px;
+  height: 50px;
+  margin:2px;
+
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-width: 2px;
+  float: left;
+}
+
+
+
+.one {
+  
+  background: rgba(248, 245, 245, 0.1);
+  background-image: url(Img/Flower\ Cherry.gif);
+  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.a {
+  color: red;
+  background: rgb(158, 247, 217, 0.3);
+  text-align: left;
+
+  font-style: italic;
+  font-size: 30px;
+  font-weight: bold;
+
+  border-style: dotted;
+  border-width: 2px;
+  border-color: lime;
+  /*border-collapse: collapse;*/
+}
+
+.x {
+  text-decoration: none;
+}
+
+.a :hover {
+  background: hsla(108, 95%, 50%, 0.9);
+  color: rgb(248, 6, 6);
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/*
+ul li a {
+    
+color: whitesmoke;
+}
+
+*/
+
+/*
+table {
+  width: 50%;
+}
+*/
+
+/*
+td {
+  background: yellow;
+  color: blue;
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: center;
+}
+*/
