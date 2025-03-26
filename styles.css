@@ -149,5 +149,83 @@ ul li {
   font-weight: bold;
  }
 
+header{
+  background: #ff7f85;
+  text-align: center;
+  color: #fffefd;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: bold;
+  background-image: url(img/nature.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+section{
+  display: flex;
+}
 
+.sec{
+  flex-basis: 60%;
+  background: burlywood;
+  color: black;
+  padding: 25px 30px;
+  width: 500px;
+  height: 300px;
+  margin: 5px;
+  padding: 5px;
+  border: 2px;
+  border-style: none;
+  border-color: lime;
+  border-radius: 20px;
+  float: left;
+  background-image: url(img/rosees.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+aside {
+  flex-basis: 35%;
+  background: rgb(7, 241, 18);
+  color: black;
+  padding: 25px 30px;
+  border: 2px;
+  border-style: none;
+  border-color: lime;
+  border-radius: 20px;
+  float: left;
+  width: 200px;
+  height: 300px;
+  background-image: url(img/wtrose.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer{
+  background: #ff7f85;
+  text-align: center;
+  color: #fffefd;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: bold;
+  background-image: url(img/flower\ 2.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 900px;
+  height: 100px;
+}
